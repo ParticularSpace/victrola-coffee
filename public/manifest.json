@@ -1,6 +1,6 @@
 {
-  "short_name": "React App",
-  "name": "Create React App Sample",
+  "short_name": "CoffeeShop",
+  "name": "Victrola Coffee Shop",
   "icons": [
     {
       "src": "favicon.ico",
@@ -21,5 +21,7 @@
   "start_url": ".",
   "display": "standalone",
   "theme_color": "#000000",
-  "background_color": "#ffffff"
+  "background_color": "#ffffff",
+  "orientation": "portrait-primary",
+  "description": "Order your favorite coffee online from Victrola Coffee Shop."
 }
