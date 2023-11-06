@@ -1,10 +1,13 @@
 import React from 'react';
-
+import HeroSection from '../components/HeroSection/HeroSection';
+import ProductsSection from '../components/ProductsSection/ProductsSection';
 
 const Home: React.FC = () => {
   return (
       <main className="flex-grow p-4">
-        Welcome to Victrola Coffee Shop. Explore our selection of fine coffee.
+        <HeroSection />
+        <ProductsSection />
+      
       </main>
   );
 };
