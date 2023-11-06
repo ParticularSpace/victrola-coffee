@@ -5,13 +5,9 @@ const HeroSection: React.FC = () => {
     <div
       className="hero bg-cover bg-center bg-black h-96 text-white flex flex-col justify-center items-center"
       style={{
-        backgroundImage: `url('path-to-your-hero-background-image.jpg')`,
+        backgroundImage: `url('https://www.victrolacoffee.com/cdn/shop/files/V2-Cafe-Outside_1440x640.png?v=1678382641')`,
       }}
     >
-      <h2 className="text-4xl font-bold mb-4">Freshly Brewed Coffee</h2>
-      <p className="text-xl mb-6">
-        Start your day with the aroma of freshly brewed coffee.
-      </p>
       <div>
         <a
           href="/menu"
