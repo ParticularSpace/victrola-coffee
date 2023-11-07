@@ -1,4 +1,4 @@
-import React from 'react';
+import React from "react";
 
 // Define the types for the product props
 type ProductProps = {
@@ -13,7 +13,11 @@ type ProductProps = {
 const ProductCard: React.FC<ProductProps> = ({ product }) => {
   return (
     <div className="max-w-sm rounded overflow-hidden shadow-lg">
-      <img className="w-full" src={product.imageUrl} alt={product.name} />
+      <img
+        className="w-full"
+        src={`https://via.placeholder.com/150`}
+        alt={product.name}
+      />
       <div className="px-6 py-4">
         <div className="font-bold text-xl mb-2">{product.name}</div>
         <p className="text-gray-700 text-base">{product.description}</p>

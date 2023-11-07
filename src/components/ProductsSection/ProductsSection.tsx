@@ -33,8 +33,25 @@ const products = [
         name: 'Macchiato',
         imageUrl: 'https://images.unsplash.com/photo-1581093458791-9a9f1e9e9c7a?ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8bWFjY2hpdGFvfGVufDB8fDB8fA%3D%3D&ixlib=rb-1.2.1&w=1000&q=80',
         description: 'Espresso topped with foamed milk.',
+    },
+    {
+        id: 6,
+        name: 'Mocha',
+        imageUrl: 'https://images.unsplash.com/photo-1581093458791-9a9f1e9e9c7a?ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8bWFjY2hpdGFvfGVufDB8fDB8fA%3D%3D&ixlib=rb-1.2.1&w=1000&q=80',
+        description: 'Espresso mixed with chocolate and milk.',
+    },
+    {
+        id: 7,
+        name: 'Flat White',
+        imageUrl: 'https://images.unsplash.com/photo-1581093458791-9a9f1e9e9c7a?ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8bWFjY2hpdGFvfGVufDB8fDB8fA%3D%3D&ixlib=rb-1.2.1&w=1000&q=80',
+        description: 'Espresso mixed with steamed milk.',
+    },
+    {
+        id: 8,
+        name: 'Cortado',
+        imageUrl: 'https://images.unsplash.com/photo-1581093458791-9a9f1e9e9c7a?ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8bWFjY2hpdGFvfGVufDB8fDB8fA%3D%3D&ixlib=rb-1.2.1&w=1000&q=80',
+        description: 'Espresso mixed with a small amount of steamed milk.',
     }
-
 ];
 
 const ProductsSection: React.FC = () => {
