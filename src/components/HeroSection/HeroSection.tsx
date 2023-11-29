@@ -3,7 +3,7 @@ import React from "react";
 const HeroSection: React.FC = () => {
   return (
     <div
-      className="hero bg-cover bg-center bg-black h-96 text-white flex flex-col justify-center items-center"
+      className="hero bg-cover bg-center bg-black h-96 text-white flex flex-col justify-center items-center overflow-hidden"
       style={{
         backgroundImage: `url('https://www.victrolacoffee.com/cdn/shop/files/V2-Cafe-Outside_1440x640.png?v=1678382641')`,
       }}

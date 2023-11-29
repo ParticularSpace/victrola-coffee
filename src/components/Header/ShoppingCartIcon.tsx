@@ -6,7 +6,7 @@ const ShoppingCartIcon: React.FC = () => {
 
   return (
     <div className="flex items-center">
-      <Link to="/cart" className="hover:text-gray-300">
+      <Link to="/Checkout" className="hover:text-gray-300">
         {/* Icon and possibly item count */}
         <span className="inline-block p-2">
           🛒 Cart

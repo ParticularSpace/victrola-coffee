@@ -7,7 +7,7 @@ import InfoPanel from "../components/InfoPanel/InfoPanel";
 const Home: React.FC = () => {
   return (
     <div className="flex flex-col min-h-screen">
-      <main className="flex-grow p-2 sm:p-4">
+      <main className="flex-grow p-2">
         <HeroSection />
         <ProductsSection />
         <InfoPanel
