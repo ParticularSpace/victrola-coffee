@@ -15,11 +15,6 @@ const Navigation: React.FC = () => {
   return (
     <nav className="flex justify-between items-center">
       <div className="flex items-center space-x-4">
-        {/* Hamburger Icon for the menu */}
-
-        <button aria-label="Menu" className="p-2">
-          <FontAwesomeIcon icon={faBars} className="h-6 w-6" />
-        </button>
 
         {/* Search bar with enter button */}
         <form onSubmit={handleSearch} className="flex text-black">

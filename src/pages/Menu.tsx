@@ -41,6 +41,91 @@ const MenuPage: React.FC = () => {
       description: 'Smooth espresso mixed with creamy steamed milk.',
       price: 4.0,
     },
+    {
+    name: 'Americano',
+    description: 'Espresso mixed with hot water.',
+    price: 3.0,
+   },
+    {
+      name: 'Macchiato',
+      description: 'Espresso topped with foamed milk.',
+      price: 3.5,
+    },
+    {
+      name: 'Mocha',
+      description: 'Espresso mixed with chocolate and milk.',
+      price: 4.5,
+    },
+    {
+      name: 'Flat White',
+      description: 'Espresso mixed with steamed milk.',
+      price: 4.0,
+    },
+    {
+      name: 'Cortado',
+      description: 'Espresso mixed with a small amount of steamed milk.',
+      price: 3.5,
+    },
+    {
+      name: 'Drip Coffee',
+      description: 'Freshly brewed coffee.',
+      price: 2.5,
+    },
+    {
+      name: 'Cold Brew',
+      description: 'Smooth, refreshing cold brew.',
+      price: 3.0,
+    },
+    {
+      name: 'Nitro Cold Brew',
+      description: 'Cold brew infused with nitrogen for a creamy texture.',
+      price: 4.0,
+    },
+    {
+      name: 'Chai Latte',
+      description: 'Spiced black tea mixed with steamed milk.',
+      price: 4.0,
+    },
+    {
+      name: 'Matcha Latte',
+      description: 'Finely ground green tea leaves mixed with steamed milk.',
+      price: 4.0,
+    },
+    {
+      name: 'Hot Chocolate',
+      description: 'Rich chocolate mixed with steamed milk.',
+      price: 4.0,
+    },
+    {
+      name: 'Tea',
+      description: 'Your choice of tea.',
+      price: 2.0,
+    },
+    {
+      name: 'Bagel',
+      description: 'Your choice of bagel.',
+      price: 2.0,
+    },
+    {
+      name: 'Croissant',
+      description: 'Your choice of croissant.',
+      price: 2.0,
+    },
+    {
+      name: 'Muffin',
+      description: 'Your choice of muffin.',
+      price: 2.0,
+    },
+    {
+      name: 'Scone',
+      description: 'Your choice of scone.',
+      price: 2.0,
+    },
+    {
+      name: 'Cookie',
+      description: 'Your choice of cookie.',
+      price: 2.0,
+    },
     
   ];
 
